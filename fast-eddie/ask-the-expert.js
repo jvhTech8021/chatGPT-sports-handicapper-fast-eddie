@@ -102,7 +102,7 @@ const askGPT = async (question, model) => {
 
         // await delay(20000); // Wait based on the length of the question
 
-        const apiResult = await axios.post('https://api-ai.jobsearcher.com/api/common/chat/plain', requestData);
+        const apiResult = await axios.post('open-ai-wrapper-url', requestData);
         // console.log(apiResult.data.choices[0].message.content);
         return apiResult.data.choices[0].message.content;
     } catch (err) {
