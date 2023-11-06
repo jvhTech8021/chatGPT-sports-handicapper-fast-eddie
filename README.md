@@ -3,6 +3,6 @@ Sports betting predictor tool harnessing ChatGPT to offer predictions for MLB an
 
 ## Features
 #### AI predictions for MLB and NBA games.
-### Utilizes multiple AI personas for diverse viewpoints.
-### Efficient predictions through concurrent processing.
-### Clean, modular code for easy customization and integration.
+#### Utilizes multiple AI personas for diverse viewpoints.
+#### Efficient predictions through concurrent processing.
+#### Clean, modular code for easy customization and integration.
