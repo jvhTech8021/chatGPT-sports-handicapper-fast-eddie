@@ -1,4 +1,4 @@
-const SCRAPINGBEE_API_KEY = '3V37EYZUBWHLGJNJRKC15AGQN23RVGHP5Q5EW7NG85BDG78LKHWPNXGCE7PVVJXJQIGRTNB0B1KUOR7G';
+const SCRAPINGBEE_API_KEY = '';
 const axios = require('axios');
 const cheerio = require('cheerio');
 const scrapingBee = require('scrapingbee');
