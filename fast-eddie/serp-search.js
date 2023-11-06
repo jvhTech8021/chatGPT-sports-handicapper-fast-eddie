@@ -1,5 +1,5 @@
 const { getAllUpcomingGames } = require('./get-todays-events');
-const SERP_API_KEY = '30b4cf482e5c11710f2d3eee84332313f210d731b2506c00b5222d184a39def7';
+const SERP_API_KEY = '';
 const axios = require('axios');
 
 const searchForGameNews = async (query) => {
