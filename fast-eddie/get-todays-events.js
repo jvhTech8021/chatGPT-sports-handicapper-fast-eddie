@@ -13,7 +13,7 @@ const getGames = async (sport) => {
     try {
         const upcomingGames = [];
         const markets = ['h2h', 'spreads', 'totals']
-        const api_key = '97e61e18193a3518624c1dbee3a323f6'; // Don't forget to secure your API keys
+        const api_key = ''; // Don't forget to secure your API keys
         const response = await axios.get(`https://api.the-odds-api.com/v4/sports/${sport}/odds/?apiKey=${api_key}&regions=us&markets=h2h,spreads,totals&dateFormat=iso&oddsFormat=american`);
 
         const games = response.data;
